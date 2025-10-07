@@ -1,0 +1,10 @@
+singleServerConfig:
+  address: "redis://127.0.0.1:6380"
+  username: "default"        # 若未启用 ACL（仅 requirepass），可删除此行
+  password: "yyhdbl123"      # 必须和 redis.conf / 容器环境一致
+  database: 0
+  connectionMinimumIdleSize: 4
+  connectionPoolSize: 24
+  timeout: 2000
+threads: 4
+nettyThreads: 4
