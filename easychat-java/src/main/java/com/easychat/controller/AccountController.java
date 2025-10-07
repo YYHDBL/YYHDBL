@@ -50,7 +50,7 @@ public class AccountController extends ABaseController {
      */
     @RequestMapping(value = "/checkCode")
     public ResponseVO checkCode() {
-        ArithmeticCaptcha captcha = new ArithmeticCaptcha(100, 42);
+        ArithmeticCaptcha captcha = new ArithmeticCaptcha(100, 43);
         String code = captcha.text();
         String checkCodeKey = UUID.randomUUID().toString();
         redisUtils.setex(Constants.REDIS_KEY_CHECK_CODE + checkCodeKey, code, 60 * 10);
