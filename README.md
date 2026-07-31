@@ -42,9 +42,9 @@ Still learning. Still building. Still trying to make agents a little less fake-s
       <p>Built around agent loops, tool execution control, prompt cache, context compression, and long-horizon task reliability.</p>
     </td>
     <td width="33%">
-      <h3>Qwen3-1.7B Rule-Reasoning Post-Training</h3>
-      <p>A small-model post-training project built with Qwen3-1.7B + LoRA.</p>
-      <p>Focused on staged SFT, answer-format control, CoT parsing, validation, and eval-driven iteration.</p>
+      <h3><a href="https://github.com/YYHDBL/shopping-grpo-longhorizon">Shopping Agent GRPO</a></h3>
+      <p>A reproducible post-training project for long-horizon shopping agents.</p>
+      <p>Built around LoRA SFT, online GRPO, structured tool use, Reward v3, and blind benchmark evaluation.</p>
     </td>
     <td width="33%">
       <h3><a href="https://github.com/YYHDBL/OpsFusion-RAG">OpsFusion-RAG</a></h3>
